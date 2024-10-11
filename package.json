@@ -2,10 +2,7 @@
   "name": "NODEJS_API",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "engines": {
-    "node": "20.x"
-  },
+  "main": "app.js",
   "scripts": {
     "start": "nodemon --trace-deprecation app.js"
   },
