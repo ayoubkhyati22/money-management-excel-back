@@ -40,4 +40,6 @@ app.use('/update-historique-categories',   require('./routes/historique'));
 
 
 // PORT
-app.listen(process.env.PORT || 5000);
+// app.listen(process.env.PORT || 5000);
+
+module.exports = app;
